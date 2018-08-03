@@ -38,9 +38,30 @@ public class SaranBahan2Resep {
            System.out.print("Masukkan no Pilihan anda : ");
            int bahan2=scanner.nextInt();
            
-    }else
-       System.out.println("Mohon Maaf, pilihan tidak ditemukan, " 
-               + "tidak dapat memberikan bahan resep"); 
+           if (bahan2>=1 && bahan2<= 3) {
+               if(bahan1==1)
+                switch(bahan2) {
+                    case 1 : System.out.println("anda dapat membuat milk shake banana"); break;
+                    case 2 : System.out.println("anda dapat membuat pisang goreng"); break;
+                    case 3 : System.out.println("anda dapat membuat pisang rebus"); break;
+                    }
+               else 
+                switch (bahan2) {
+                    case 1 : System.out.println("anda dapat membuat telur mata sapi"); break;
+                    case 2 : System.out.println("anda dapat membuat sandwich telur"); break;
+                    case 3 : System.out.println("anda dapat membuat telur rebus");
+                }
+               
+           }else
+               System.out.println("Mohon maaf, pilihan tidak ditemukan, " + "tidak dapat memberi saran resep");
+                    
+               
+           }
+           
+           
+           
+    
+   
 
     
     
@@ -53,6 +74,6 @@ public class SaranBahan2Resep {
        
         
         
-    }
     
-}
+    
+
