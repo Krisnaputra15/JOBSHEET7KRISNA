@@ -22,7 +22,30 @@ public class CobaPercabangan {
         
         Scanner scanner = new Scanner(System.in);
         // TODO code application logic here
+        System.out.print("Nila a ? ");
+        int a = scanner.nextInt();
         
+        System.out.println("\nIF.. 1");
+        if (a <5)System.out.println("nilai a kurang dari 5");
+        
+        System.out.println("\nIf.. 2");
+        if (a==5) System.out.println("nilai a sama dengan 5");
+        
+        System.out.println("\nIf.. 3");
+        if (a>5) 
+            System.out.println("nilai a lebih dari 5");
+        
+        System.out.println("\nIF..ELSE..");
+        if (a<5) {
+            System.out.println("isi variabel a : " +a);
+            System.out.println("nilai a kurang dari 5");
+       }else {
+               System.out.println("nilai variabel a lebih dari atau sama dengan 5");
+        }
+        
+        
+                    
+        }
     }
     
-}
+    
