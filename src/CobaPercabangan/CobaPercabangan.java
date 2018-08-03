@@ -80,7 +80,14 @@ public class CobaPercabangan {
             default : System.out.println("nilai a bukan diantara 1 - 5");
         }
         
-        }
+        int nilai;
+        System.out.println("\nNilai anda ? ");
+        nilai = scanner.nextInt();
+        
+        String grade = (nilai<75) ? "Belum kompeten" : "Kompeten";
+        System.out.println(+ nilai + " => " + grade);
+        
+    }
         
     
                 
